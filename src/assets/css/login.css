@@ -1,0 +1,120 @@
+body {
+  background-color: #f8f9fa;
+}
+.login-form {
+	margin-top: 30%;
+}
+.app-login-container {
+    position: relative;
+    max-width: 680px;
+    width: 94%;
+    margin: 0 auto;
+}
+
+.animation-duration-3 {
+  animation-duration: .3s;
+}
+
+.slideInUpTiny {
+  animation-name: slideInUpTiny;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.justify-content-center {
+  justify-content: center!important;
+}
+
+.d-flex {
+  display: flex!important;
+}
+
+.align-items-center {
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.justify-content-center {
+  -webkit-box-pack: center !important;
+  -ms-flex-pack: center !important;
+  justify-content: center !important;
+}
+.d-flex {
+  display: -webkit-box !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+.app-login-main-content {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  background-color: #fff;
+  -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,.25);
+  -moz-box-shadow: 0 1px 4px 0 rgba(0,0,0,.25);
+  -o-box-shadow: 0 1px 4px 0 rgba(0,0,0,.25);
+  box-shadow: 0 1px 4px 0 rgba(0,0,0,.25);
+  border-radius: 10px;
+  font-size: 14px;
+  overflow: hidden;
+  width: 100%;
+  margin-top: 35%;
+}
+
+.app-logo-content {
+  background-color: #3f51b5;
+  padding: 35px 35px 20px;
+  width: 40%;
+  order: 2;
+}
+
+.align-items-center {
+  align-items: center!important;
+}
+
+.justify-content-center {
+  justify-content: center!important;
+}
+.app-login-content {
+  padding: 35px 35px 20px;
+  width: 60%;
+  order: 1;
+}
+
+.login-form-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.app-login-header {
+  margin-bottom: 30px;
+}
+
+.mb-4, .my-4 {
+  margin-bottom: 1.5rem!important;
+}
+
+@media (max-device-width: 480px)  {
+  .app-login-content, .app-logo-content {
+    width: 100%;
+  }
+
+  .app-login-main-content {
+    margin-bottom: 30px;
+  }
+}
